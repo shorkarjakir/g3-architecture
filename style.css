@@ -221,13 +221,22 @@ main{
   .card-container{
     gap: 20px;
   }
+  .ten-years-btn{
+    width: 140px;
+  }
+  .ten-years-btn .ten-title{
+    font-size: 2rem;
+  }
+
 }
+
 /* tablet device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header{
     padding: 50px;
   }
-  nav, .teams-container{
+  nav, .teams-container,
+  .feature-section{
     flex-direction: column;
   }
 }
