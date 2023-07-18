@@ -70,32 +70,38 @@ nav li a:hover{
   width: 100%;
 }
 main{
-  max-width: 1440px;
+  max-width: 950px;
   margin: 70px auto;
+  
 }
 .teams-container{
   display: flex;
   align-items: center;
+  
 }
 .teams-img-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
+.teams-img-container img{
+  height: 250px;
+  width: 250px;
+}
 .teamd-content{
   padding-left: 70px;
   padding-right: 70px;
 }
 
-.teams-title > .quick-list{
+.quick-list{
   font-weight: 500;
   color: #727272;
 }
-.teams-title > .of-our{
+.of-our{
   font-weight: 700;
   color: #131313;
 }
-.teams-title > .features{
+.features{
   font-weight: 700;
   color: #FF900E;
 }
