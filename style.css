@@ -70,7 +70,7 @@ nav li a:hover{
   width: 100%;
 }
 main{
-  max-width: 950px;
+  max-width: 1440px;
   margin: 70px auto;
   
   
@@ -123,6 +123,32 @@ main{
   padding-left: 20px;
   font-size: 2.5rem;
 }
+.ten-years-btn{
+  border-radius: 8px;
+  background: #FF900E;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  width: 170px;
+  height: 80px;
+  position: relative;
+  bottom: 65px;
+}
+.feature-img img{
+  height: 92%;
+  width: 100%;
+  margin-left: 90px;
+}
+.ten-years-btn .ten-title{
+  font-size: 2.5rem;
+  margin: 0;
+  align-items: center;
+}
+.ten-years-btn p{
+  margin-top: 0;
+  align-items: center;
+}
 /* fact section  */
 .card-container{
   display: flex;
@@ -168,10 +194,6 @@ main{
 
 
 
-
-
-
-
 /* Responsive media quaries */
 /* mobile device */
 @media screen and (max-width: 576px) {
@@ -181,8 +203,13 @@ main{
   nav,
   .teams-container,
   .card-container,
-  .sponsors-img-container{
+  .sponsors-img-container,
+  .feature-section{
     flex-direction: column;
+  }
+  .feature-img img{
+    width: 90%;
+    margin-left: 0;
   }
   .teams-img-container{
     grid-template-columns: 1fr;
@@ -191,7 +218,7 @@ main{
   padding-left: 20px;
   padding-right: 20px;
   }
-  ..card-container{
+  .card-container{
     gap: 20px;
   }
 }
