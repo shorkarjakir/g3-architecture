@@ -192,6 +192,20 @@ main{
   height: 50px;
 }
 
+/* footer section  */
+footer{
+color: #424242;
+font-size: 1.5rem;
+font-weight: 400;
+border-radius: 8px;
+background: #FFF4E7;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
 
 
 /* Responsive media quaries */
@@ -222,6 +236,7 @@ main{
     gap: 20px;
   }
   .ten-years-btn{
+    position: static;
     width: 140px;
   }
   .ten-years-btn .ten-title{
